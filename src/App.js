@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from 'react';
 import { Route ,Switch} from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
@@ -15,17 +16,13 @@ import LoginForm from './components/LoginForm';
 const oktaAuth = new OktaAuth(oktaAuthConfig);
 
 function App() {
-
     const history = useHistory();
-
     const customAuthHandler = () => {
         history.push('/login');
     };
-
     const restoreOriginalUri = async (_oktaAuth) => {  //eslint-disable-line
         history.push(history.goBack());
     };
-
     return (
         <Security
             oktaAuth={oktaAuth}

@@ -3,7 +3,7 @@ const oktaAuthConfig = {
     // instead of the Authorization Code with Proof of Code Key Exchange (PKCE)
     // you will need to add `pkce: false`
     issuer: 'https://dev-28942876.okta.com/oauth2/default',
-    clientId: '0oa1stgm6rVcBShIf5d7',
+    clientId: '0oa20mturlT9930mc5d7',
     redirectUri: window.location.origin + '/login/callback',
 };
   
