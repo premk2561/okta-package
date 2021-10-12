@@ -8,7 +8,7 @@ const Home = () => {
 
     if (!authState) return null;
 
-    const login = async () => history.push('/LoginForm');
+    const login = async () => history.push('/login');
 
     const logout = async () => oktaAuth.signOut();
 
