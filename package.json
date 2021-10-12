@@ -1,7 +1,6 @@
 {
-  "name": "@premk2561/okta-staff-login",
+  "name": "@premk2561/okta-package",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@okta/okta-auth-js": "^5.4.3",
     "@okta/okta-react": "^6.1.0",
@@ -45,6 +44,6 @@
     "eslint-plugin-react": "^7.25.1"
   },
   "repository": {
-    "url": "https://github.com/premk2561/okta-staff-login.git"
+    "url": "https://github.com/premk2561/okta-package.git"
   }
 }
